@@ -2,7 +2,6 @@
 .DS_Store
 init.lua
 lazy-lock.json
-lazyvim.json
 spell/
 
 # Logs
