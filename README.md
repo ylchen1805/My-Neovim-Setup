@@ -2,12 +2,10 @@
 
 For me to easily bring my Neovim setup to a new machine
 
-## Install
+## INstall LazyVim
 
-```bash
-mkdir -p ~/.config
-git clone git@github.com:ylchen1805/My-Neovim-Setup.git ~/.config/nvim
-nvim
+```shell
+git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
 
 ## Extra tools
@@ -19,6 +17,14 @@ Install required CLI tools:
 - fd
 - python
 - node (if some plugins/tools need it)
+
+## Install
+
+```bash
+git clone https://github.com/ylchen1805/My-Neovim-Setup.git
+mv -f My-Neovim-Setup/* ~/.config/nvim/
+nvim
+```
 
 ## Python debugger
 
