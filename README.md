@@ -2,7 +2,7 @@
 
 For me to easily bring my Neovim setup to a new machine
 
-## INstall LazyVim
+## Install LazyVim
 
 ```shell
 git clone https://github.com/LazyVim/starter ~/.config/nvim
@@ -22,6 +22,7 @@ Install required CLI tools:
 
 ```bash
 git clone https://github.com/ylchen1805/My-Neovim-Setup.git
+rm -rf ~/.config/nvim/lua
 mv -f My-Neovim-Setup/* ~/.config/nvim/
 nvim
 ```
