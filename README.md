@@ -24,7 +24,7 @@ Install required CLI tools:
 ```bash
 git clone https://github.com/ylchen1805/My-Neovim-Setup.git
 rm -rf ~/.config/nvim/lua
-mv -f My-Neovim-Setup/* ~My-Neovim-Setup/.* */.config/nvim/
+mv -f My-Neovim-Setup/* My-Neovim-Setup/.* ~/.config/nvim/
 nvim
 ```
 
